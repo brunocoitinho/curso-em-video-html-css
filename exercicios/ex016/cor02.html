@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Gradiente em CSS</title>
+    <style>
+        * {/* Configurações globais das CSS */
+            height: 100%;
+        }
+        body{
+            background-image: linear-gradient(225deg, #5755CC , #B23593 10%, #DF2C73 30%, #F86F2F 60%, #FDB550 80%);
+
+            /* A porcentagem se refere a que posição da tela referente a origem a cor começa. Sendo 0% começando no inicio e 50% começando na metade.*/
+
+            
+            background-attachment: fixed;
+        }
+
+        h1{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
