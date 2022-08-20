@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+    HTML id = CSS #
+    HTML Class = CSS .
+
+*/
+
+body{
+    background-color: #CBFFC9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #0E6709;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #0E6709;
+    color: white;
+}
+
+h2{
+    color: #386136;
+}
+
+.basico{
+    color: #3a7337;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: #bcbc3f;
+}
+
+.avancado{
+    color: #98473b;
+}
+
+.destaque{
+    background-color: #fcf8007d;
+}
+
+/* 
+    O específico sobrepõe o genérico
+    id > class
+/*
