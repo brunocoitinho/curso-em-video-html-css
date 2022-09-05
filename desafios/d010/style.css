@@ -200,10 +200,6 @@ footer{
 }
 
 footer a{
-    text-decoration: none;
-    color: inherit;
-}
-
-footer a:hover{
     text-decoration: underline;
+    color: inherit;
 }
