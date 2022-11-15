@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*Todas as demais medias*/
+
+/*
+
+Typical Device Breakpoints
+--------------------------
+
+Pequenas telas: 600px
+Celular: 600 a 768px
+Tablet: 768 a 992px
+Desktop: 992 a 1200px
+Grandes telas: acima de 1200px
+
+*/
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita seguindo as aulas do Gustavo Guanabara do Curso em Video';
+        text-decoration: overline;
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#print{ display: block;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
+    
+}
+
+@media screen and (min-width: 768px) {
+    span#burger{display: none;}
+    menu#navmenu{display: block;}
+
+    menu > ul > li {
+        display: inline-block;
+    }
+    
+    main{
+        width: 768px;
+    }
+    
+}
+
